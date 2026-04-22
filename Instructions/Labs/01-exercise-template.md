@@ -12,7 +12,7 @@ You can delete the module and edit index.md in the root of the repo to customize
 To enable GitHub page publishing, edit the Page settings for the repo and publish from the main branch
 -->
 
-# Lab 1: Discover and Govern Agents
+# Lab 1 Exercise 1: Discover and Govern Agents
 
 Scenario: As an Agent 365 administrator, you are responsible for maintaining visibility and governance across all agents in the environment. You need to identify which agents exist in the tenant, understand how they are used, and ensure they meet organizational governance requirements. 
 
@@ -90,11 +90,53 @@ First, you need to ...
     - Agent type
     - Platform
     - Sensitivity
-1. Select the “x” on the pop-up window.
+1. Select the **x** on the pop-up window to close out the winow.
 1. **Outcome**: You can check an Agent’s metadata.
-1. etc.
 
-## Task with subtasks
+# Lab 1 Exercise 2: Manage Agents with Agent 365
+
+## Task 1: Onboard an Agent
+
+1. Navigate to https://admin.microsoft.com and login with the provided admin credentials. Select **Agents** on the left hand side of the navigation menu. 
+1. Select **All agents** > **Requests**
+1. Select the **Sales Outreach Agent**
+1. Select **Publish to store**
+1. In the Publish agent to selected users page select the following options
+       - Under “Select users to groups who can install the agent” , select “All users”.
+       - Under the “Select users or groups who will have the agent pre-installed (optional),
+1. On the Apply security template page select the following option
+       - In the dropdown list for “Template”, select the default option “Default template for no instances”. Leave the rest of the page as is and select Next.
+1. On the Review permissions, select Next.
+1. On the Review and finish page, select Publish. Select Done.
+1. Navigate back to **Agents**> **All Agents** > **Registry**.
+1. Select the  Sales Outreach Agent.
+1. **Outcome**: You have onboarded an agent.
+
+## Task 2: Reassign Agent Ownership
+
+1. Navigate to https://m365.cloud.microsoft/chat? and login as as a non admin user with the credential provided.
+1. On the left hand navigation side, select **New agent**
+1. Fill out the following fields under the New Agent page:
+       - **Template**: None
+       - **Name**: Contoso Agent
+       - **Description**: Contoso Agent
+       - **Instructions**: Agent to help facilitate documents to the call center
+       - **Knowledge**: Add specific websites: Ad the link to the Sharepoint site that you retrieved at the start of the lab.
+1. Select **Create**
+1. Navigate to https://admin.microsoft.com and login with the provided admin credentials.
+1. Select **Agents** on the left hand side of the navigation menu. Then select **All agents**.
+1. Under the **Registry** tab you should now see the newly created Contoso Agent.
+1. Select the Contoso Agent.
+1. Select **Assign new owner**.
+1. In the Search for a user text box, select Amber Rodriguez.
+1. Select **Assign**.
+1. You may receive an error that the assignment was unsuccessfully. Close out the agent reassignment window.
+1. Back on the Agent registry page, refresh the web page.
+1. Select the Contoso Agent
+1. You should now the Owner listed as Amber Rodriguez
+1. **Outcome**: You have reassigned the owner of an agent.
+
+
 ![A screenshot of an application.](./Media/edge-copilot.png) 
 Sometimes you might want to break a task down into smaller chunks.
 
