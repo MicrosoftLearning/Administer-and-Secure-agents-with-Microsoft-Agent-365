@@ -1,10 +1,10 @@
 ---
 lab:
-    title: 'Exercise Title'
-    description: 'Sentence describing the lab'
-    duration: '00 minutes'
-    level: 100 <!-- 100 basic concepts, 200 foundations, 300 practical usage, 400 advanced scenarios, 500 expert design -->
-    islab: true <!-- if not a lab, remove -->
+    title: 'Discover and Govern Agents'
+    description: 'Explore the Agent 365 overviewpage within the Microsoft365 Admin center. '
+    duration: '20 minutes'
+    level: 200-300
+    islab: true 
 ---
 <!--
 Edit the metadata above to manage the list of exercises in the home page of the GitHub site that gets generated.
@@ -12,9 +12,14 @@ You can delete the module and edit index.md in the root of the repo to customize
 To enable GitHub page publishing, edit the Page settings for the repo and publish from the main branch
 -->
 
-# Exercise title <!-- match title in metadata above (and Learn Exercise unit and ILT slide)-->
+# Exercise title <Discover and Govern Agents>
 
-In this exercise you will <!-- provide a description of what they'll do and why it;s important -->
+Scenario: As an Agent 365 administrator, you are responsible for maintaining visibility and governance across all agents in the environment. You need to identify which agents exist in the tenant, understand how they are used, and ensure they meet organizational governance requirements. 
+
+In this exercise you will you will use Agent Registry and, optionally Agent Map to discover agents deployed in the tenant, review agent usage, and understand how agents connect to each other and to enterprise resources. During this review, you will identify an existing agent that needs an new ownership reassignment.  Using Agent 365, the admin identifies the agent, reassigns ownership. This scenario reinforces that agents are long lived digital actors that require lifecycle governance like service accounts.
+By completing this lab, you will validate your ability to discover, assess, and govern agents across a Microsoft 365 tenant. 
+
+Lab Description: Discover Microsoft-built, partner-built, and custom agents in a tenant. Additionally, use Agent Registry and Agent Map to know what agents are in use and how they connect to one another. You will also onboard a new agent. You will also identify an agent created by a user within the your organization and reassign ownership to a different user. 
 
 This exercise should take approximately **XX** minutes to complete. <!-- update with estimated duration -->
 
@@ -37,47 +42,60 @@ Before you can start this exercise, you will need to...
 1. Step 2
 1. etc.
 
-## Task <!-- Change to an appropriate task title with an imperative verb phrase (e.g. "Do something") -->
+## Task 1 <Discover agents across the tenant using Agent Registry>
 
 First, you need to ...
 
-1. Step 1
-1. This step includes an example of `inline code formatting`, which is used when the learner needs to type something (anything, not just code) because it creates a [T] link in the hosted Skillable environment.
-1. If you need the learner to open a website, include both a link (so they can open by clicking in the HTML GitHub page) AND the URL formatted as code (so they can type it in a hosted VM browser). For example, "Open the [Bing](https://www.bing.com){:target="_blank"} website at `https://www.bing.com`" (the {:target="_blank"} tag forces the link to open in a new browser tab!)
-1. If you need the learner to download a file (or a bunch of files in a zip), store the file in Allfiles folder in this repo and use the **raw** URL - like this: "Download [file name](https://raw.githubusercontent.com/MicrosoftLearning/INF99X-SampleCourse/master/Allfiles/read-me.md){:target="_blank"} from `https://raw.githubusercontent.com/MicrosoftLearning/INF99X-SampleCourse/master/Allfiles/read-me.md`.
-1. Alternatively, for a developer audience, you can have them clone this repo if that seems more appropriate.
-1. If you need to include a multiline code block, indent it to match the bulleted list indent:
+1. Navigate to https://admin.microsoft.com and login with the provided admin credentials
+1. Navigate to **Agents** on the left hand side navigation menu.
+1. Select **Overview** > **Agent Registry** > **Explore all agents**. You should be able to see a list of all your agents within your organization.
+1. Review the full agent inventory surfaced in the registry.
+1. Next to **Filters**  you will notice options to filter the Registry view of agents by “Status”, “Publisher”, “Channel”, “Platform”, and “Data source”. Filter agents by selecting Publisher to identify the different types of agents such as:
+    - Microsoft
+    - External pertners
+    - Crated by your org
+    - Shared by creator
+1. **Outcome**: You have a centralized view of all agents deployed or discovered in the tenant using Agent Registry.
 
     ```python
     # This is an example of an
     # indented code block.
     ```
 
-1. If you need to include a acreenshot, resize it to an appropriate size (so any "normal" formatted text in a partial screenshot is roughly the same size as this text - generally try to make screenshots of full application windows 1200x900px (approx)). Store images in a **Media** subfolder and use markdown to add it to the page (remembering that file and folder names are case-sensitive). If the image is in a list, indent it, like this:
+##  Optional Task 2 <Analyze agent relationships using Agent Map>
 
-    ![A screenshot of an application.](./Media/edge-copilot.png) 
+**Note**: This is an optional task, as the ability to navigate to Agent Maps may be available only in Preview mode. You may need to join the Frontier Program by navigating to Agents> Overview> Select Try now under Do more with the Frontier program and then follow the rest of the prompts. You may get an error upon signing up. You should then close out the browser and then proceed with the steps below. If Agent Maps do not appear, proceed with the next task. 
 
-1. If you need to explain why something is done the way it is, or provide additional context or links to info, use a note like this:
+1. Navigate to https://admin.microsoft.com and login with the provided admin credentials.
+1. Navigate to Agents in the navigation menu on the left side on the screen. Select **Agents** > **All agents** select **Map**.
+1. You should be able to see groups of agents. For example:
+    - External partners
+    - Microsoft
+1. Double click on the Microsoft Group and zoom into to see the agents within the group.
+1. Select the Sales Agent.
+1. A pop up window should appear that reads “Sales”. This is demonstrating another way to view Agent details via the Agent Map.
+1. **Outcome**: You understand how agents interact with one another and with enterprise resources, reinforcing that agents operate as part of a broader ecosystem.
 
-    > **Note**: This is a note.
+## Task 3 <Review an agent's metadata>
 
-1. Be flexible when providing instructions that might vary between self-paced and hosted lab environments. For example:
-    - "Sign in using your Azure credentials" (assuming there were Learn-specific instructions to use a personal subscription or create a trial in the Learn exercise page, and ILT-specific instructions to use provided cloudslice credentials in the Skillable lab profile)
-    - "Select an existing resource group or create a new one" (assuming that if a Skillable CS-R cloudslice is used, you included a note in the lab profile telling the learner which resource group they should use)
-    - Try to use consistent phrases for anything that might need to be "overwritten" by the replacement-text feature in thw Skillable profile.
-    <!-- The key point is that this markdown file should be environment-agnostic - you need to provide explicit details of things that can vary OUTSIDE of this file (in the Learn exercise page or the Skillable lab profile instructions) -->
-1. etc.
-
-## Next task
-
-Now let's, ...
-
-1. Step 1
-1. Step 2
+1. In the selected Sales agent that you opened in the previous task . Review key metadata for the agent in the Overview tab: 
+    - Description
+    - Additional Resources
+    - Published status
+    - Deployment
+    - Channel
+    - Last Updated
+    - Version
+    - Publisher
+    - Agent type
+    - Platform
+    - Sensitivity
+1. Select the “x” on the pop-up window.
+1. **Outcome**: You can check an Agent’s metadata.
 1. etc.
 
 ## Task with subtasks
-
+![A screenshot of an application.](./Media/edge-copilot.png) 
 Sometimes you might want to break a task down into smaller chunks.
 
 ### Subtask 1
