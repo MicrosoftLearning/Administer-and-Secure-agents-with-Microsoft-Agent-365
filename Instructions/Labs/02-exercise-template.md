@@ -11,7 +11,7 @@ lab:
 
 Scenario: Security teams flag that an agent may surface sensitive content in Copilot Chat. The admin uses Purview, DLP, and sensitivity labels to restrict what data the agent can process.  
 
-In this exercise you will manage agents through the Agent 365 control plane, including the Microsoft 365 Admin Center, and Purview. Apply Microsoft Purview information protection and DLP policies to control what data the agent may process. 
+In this exercise you will manage agents through the Agent 365 control plane, including the Microsoft 365 Admin Center, and Purview. You will apply Microsoft Purview information protection and DLP policies to control what data the agent may process. 
 
 This exercise should take approximately 20 minutes to perform, however, it may take up to 24 hours for certtain policies to apply after setting them . <!-- update with estimated duration -->
 
