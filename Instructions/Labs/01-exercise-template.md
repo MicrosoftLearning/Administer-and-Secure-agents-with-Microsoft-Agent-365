@@ -25,22 +25,13 @@ This exercise should take approximately **XX** minutes to complete. <!-- update 
 
 ## Before you start
 
-<!--
-Add steps to get the learner to the starting point" for the exercise. This might be cloning the repo and running a script or performing some manual steps.
-
-Only include this section if its necessary to do some pre-exercise setup AND the same setup steps are required for self-paced (on Learn) and managed (in hosted ILT lab profiles) scenarios. Otherwise delete this section.
-If self-paced /ILT-specific setup steps are required, include them in the Learn "Exercise" unit from where they open this exercise and in the Skillable lab profile instructions before this markdown file is imported.
-
-Do not include requirements for getting an Azure (or other) subscription (write the exercise on the assumption the learner has a functioning lab environment - this section is only for exercise-specific steps to get to a starting point)
-
-If there are complex setup steps that apply to ALL of the exercises in the repo (for example, installing and configuring client-side tools), create a separate 00-setup.md file with instructions.
- -->
-
 Before you can start this exercise, you will need to...
 
-1. Step 1
-1. Step 2
-1. etc.
+1.  Navigate to https://admin.microsoft.com and login with the provided admin credentials
+2.  Click on the squre tile menuoption at the top left corner
+3.  Select Sharepoint. The tenanat's sharepoint site should open in another tab/window.
+4.  Take note of the Sharepoint site a you will need itduring the lab. For example,  https://wwlcpxxxxx.sharepoint.com/
+
 
 ## Task 1: Discover agents across the tenant using Agent Registry
 
@@ -136,28 +127,3 @@ First, you need to ...
 1. You should now the Owner listed as Amber Rodriguez
 1. **Outcome**: You have reassigned the owner of an agent.
 
-
-![A screenshot of an application.](./Media/edge-copilot.png) 
-Sometimes you might want to break a task down into smaller chunks.
-
-### Subtask 1
-
-1. Step 1
-1. Step 2
-1. Etc.
-
-### Subtask 2
-
-1. Step 1
-1. Step 2
-1. etc.
-
-## Clean up
-
-<!-- Good practice - especially as self-paced learners will be using their own subscriptions -->
-<!-- Delete this section if it is not needed -->
-
-Now that you've finished the exercise, you should delete the cloud resources you've created to avoid unnecessary resource usage.
-
-1. Step 1
-2. etc.
