@@ -69,7 +69,7 @@ First, you need to ...
 1. In the searchbox, type **Sales and Marketing** and select it.
 1. In the **Sales and Marketing** page, select **Documents** > **Sales** folder > open the **Annual Sales Report.docx**.
 1. Press **Select label**.
-1. Select **Wingtip Acquisition** > OK
+1. Select **Wingtip Acquisition** > **OK**
 **Note**: the label may take a few hours to apply to this document.
 1. Copy the link to the Annual Sales Report.docx
 1. Navigate to https://m365.cloud.microsoft/chat? and login as a non admin user with the crednetials provided.
