@@ -42,7 +42,7 @@ Before you can start this exercise, you will need to...
 1. Step 2
 1. etc.
 
-## Task 1 <Discover agents across the tenant using Agent Registry>
+## Task 1: Discover agents across the tenant using Agent Registry
 
 First, you need to ...
 
@@ -62,7 +62,7 @@ First, you need to ...
     # indented code block.
     ```
 
-##  Optional Task 2 <Analyze agent relationships using Agent Map>
+##  Optional Task 2: Analyze agent relationships using Agent Map
 
 **Note**: This is an optional task, as the ability to navigate to Agent Maps may be available only in Preview mode. You may need to join the Frontier Program by navigating to Agents> Overview> Select Try now under Do more with the Frontier program and then follow the rest of the prompts. You may get an error upon signing up. You should then close out the browser and then proceed with the steps below. If Agent Maps do not appear, proceed with the next task. 
 
@@ -76,7 +76,7 @@ First, you need to ...
 1. A pop up window should appear that reads “Sales”. This is demonstrating another way to view Agent details via the Agent Map.
 1. **Outcome**: You understand how agents interact with one another and with enterprise resources, reinforcing that agents operate as part of a broader ecosystem.
 
-## Task 3 <Review an agent's metadata>
+## Task 3: Review an agent's metadata
 
 1. In the selected Sales agent that you opened in the previous task . Review key metadata for the agent in the Overview tab: 
     - Description
