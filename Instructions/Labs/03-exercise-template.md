@@ -37,7 +37,7 @@ First, you need to ...
 1. Select **Search** 
 1. **Outcome**: An audit log should appear with the dates as indicated
 
-## Task 3: Generate Alert Reports with Microsoft
+## Task 3: Generate Alert Reports with Microsoft Purview
 
 1. Sign in to the Microsoft Purview portal and the MOD Administrator.
 1. Navigate to **Data Loss Prevention** > **Alerts**
