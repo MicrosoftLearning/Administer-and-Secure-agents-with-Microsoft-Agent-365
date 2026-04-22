@@ -25,8 +25,8 @@ Before you can start this exercise, you will need to...
 
 1.  Navigate to https://admin.microsoft.com and login with the provided admin credentials
 2.  Click on the squre tile menu option at the top left corner
-3.  Select Sharepoint. The tenanat's sharepoint site should open in another tab/window.
-4.  Take note of the Sharepoint site a you will need itduring the lab. For example,  https://wwlcpxxxxx.sharepoint.com/
+3.  Select Sharepoint. The tenant's Sharepoint site should open in another tab/window.
+4.  Take note of the Sharepoint site as you will need it during the lab. For example,  https://wwlcpxxxxx.sharepoint.com/.
 
 
 ## Task 1: Discover agents across the tenant using Agent Registry
@@ -60,7 +60,8 @@ First, you need to ...
 
 ## Task 3: Review an agent's metadata
 
-1. In the selected Sales agent that you opened in the previous task . Review key metadata for the agent in the Overview tab: 
+1. In the selected Sales agent that you opened in the previous task. Review key metadata for the agent in the Overview tab:
+   **Note**: If you were unable to complete the previous task, Navigate to the **Overview** > **Agent Registry** > **Explore all agents** section within the Microsoft 365 Admin center and search and Select the "Sales" Agent.
     - Description
     - Additional Resources
     - Published status
@@ -105,7 +106,7 @@ First, you need to ...
        - **Instructions**: Agent to help facilitate documents to the call center
        - **Knowledge**: Add specific websites: Ad the link to the Sharepoint site that you retrieved at the start of the lab.
 1. Select **Create**
-1. Navigate to https://admin.microsoft.com and login with the provided admin credentials.
+1. Navigate to https://admin.microsoft.com and login with as the MOD Administrator.
 1. Select **Agents** on the left hand side of the navigation menu. Then select **All agents**.
 1. Under the **Registry** tab you should now see the newly created Contoso Agent.
 1. Select the Contoso Agent.
