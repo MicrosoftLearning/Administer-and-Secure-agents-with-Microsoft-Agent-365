@@ -33,7 +33,7 @@ First, you need to ...
 1. Select **Turn On** under the Audit on solution settings. If you have to turn this setting on, it will take 24 hours for this to apply. The reccomendation is to move on to Task 3 of this lab in the meantime. 
    - **Note**: This policy may already be turned on.
    - **Note**: If this policy is already turned on, you will still need wait 24 hours before proceeding with the next step of this task. The reccomendation is to move on to Task 3 of this lab in the meantime. 
-1. Under the** Date and time** range, change the Start and End date to be within 2 days of when you performed Lab 3. For example, if you performed Lab 3 on April 25th, you should set your start and end date in the filter to April 24 and April 26 respectively. 
+1. Under the **Date and time** range, change the Start and End date to be within 2 days of when you performed Lab 3. For example, if you performed Lab 3 on April 25th, you should set your start and end date in the filter to April 24 and April 26 respectively. 
 1. Select **Search** 
 1. **Outcome**: An audit log should appear with the dates as indicated
 
