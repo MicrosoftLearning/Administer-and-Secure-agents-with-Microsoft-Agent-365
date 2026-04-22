@@ -12,7 +12,7 @@ You can delete the module and edit index.md in the root of the repo to customize
 To enable GitHub page publishing, edit the Page settings for the repo and publish from the main branch
 -->
 
-# Exercise title <Discover and Govern Agents>
+# Lab 1: Discover and Govern Agents
 
 Scenario: As an Agent 365 administrator, you are responsible for maintaining visibility and governance across all agents in the environment. You need to identify which agents exist in the tenant, understand how they are used, and ensure they meet organizational governance requirements. 
 
