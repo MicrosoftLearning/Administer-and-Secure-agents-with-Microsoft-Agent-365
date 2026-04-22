@@ -48,11 +48,6 @@ First, you need to ...
     - Shared by creator
 1. **Outcome**: You have a centralized view of all agents deployed or discovered in the tenant using Agent Registry.
 
-    ```python
-    # This is an example of an
-    # indented code block.
-    ```
-
 ##  Optional Task 2: Analyze agent relationships using Agent Map
 
 **Note**: This is an optional task, as the ability to navigate to Agent Maps may be available only in Preview mode. You may need to join the Frontier Program by navigating to Agents> Overview> Select Try now under Do more with the Frontier program and then follow the rest of the prompts. You may get an error upon signing up. You should then close out the browser and then proceed with the steps below. If Agent Maps do not appear, proceed with the next task. 
