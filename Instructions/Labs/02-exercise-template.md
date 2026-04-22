@@ -1,7 +1,7 @@
 ---
 lab:
     title: 'Data Protection and Compliance'
-    description: 'Protect your Agent's data with Agent 365 and Microsoft Purview. '
+    description: 'Secure the data for your agent with Agent 365 and Microsoft Purview. '
     duration: '20 minutes'
     level: 200-300
     islab: true 
