@@ -6,11 +6,7 @@ lab:
     level: 200-300
     islab: true 
 ---
-<!--
-Edit the metadata above to manage the list of exercises in the home page of the GitHub site that gets generated.
-You can delete the module and edit index.md in the root of the repo to customize the display so that only the exercises are listed
-To enable GitHub page publishing, edit the Page settings for the repo and publish from the main branch
--->
+
 
 # Lab 1 Exercise 1: Discover and Govern Agents
 
@@ -21,14 +17,14 @@ By completing this lab, you will validate your ability to discover, assess, and 
 
 Lab Description: Discover Microsoft-built, partner-built, and custom agents in a tenant. Additionally, use Agent Registry and Agent Map to know what agents are in use and how they connect to one another. You will also onboard a new agent. You will also identify an agent created by a user within the your organization and reassign ownership to a different user. 
 
-This exercise should take approximately **XX** minutes to complete. <!-- update with estimated duration -->
+This exercise should take approximately **20** minutes to complete. <!-- update with estimated duration -->
 
 ## Before you start
 
 Before you can start this exercise, you will need to...
 
 1.  Navigate to https://admin.microsoft.com and login with the provided admin credentials
-2.  Click on the squre tile menuoption at the top left corner
+2.  Click on the squre tile menu option at the top left corner
 3.  Select Sharepoint. The tenanat's sharepoint site should open in another tab/window.
 4.  Take note of the Sharepoint site a you will need itduring the lab. For example,  https://wwlcpxxxxx.sharepoint.com/
 
@@ -85,7 +81,7 @@ First, you need to ...
 
 1. Navigate to https://admin.microsoft.com and login with the provided admin credentials. Select **Agents** on the left hand side of the navigation menu. 
 1. Select **All agents** > **Requests**
-1. Select the **Sales Outreach Agent**
+1. Select the **IT Support Assistant** Agent.
 1. Select **Publish to store**
 1. In the Publish agent to selected users page select the following options
        - Under “Select users to groups who can install the agent” , select “All users”.
@@ -95,7 +91,7 @@ First, you need to ...
 1. On the Review permissions, select Next.
 1. On the Review and finish page, select Publish. Select Done.
 1. Navigate back to **Agents**> **All Agents** > **Registry**.
-1. Select the  Sales Outreach Agent.
+1. Select the  **IT Support Assistant** Agent.
 1. **Outcome**: You have onboarded an agent.
 
 ## Task 2: Reassign Agent Ownership
