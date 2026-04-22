@@ -13,9 +13,7 @@ Scenario: Security teams flag that an agent may surface sensitive content in Cop
 
 In this exercise you will manage agents through the Agent 365 control plane, including the Microsoft 365 Admin Center, and Purview. Apply Microsoft Purview information protection and DLP policies to control what data the agent may process. 
 
-Lab Description: Discover Microsoft-built, partner-built, and custom agents in a tenant. Additionally, use Agent Registry and Agent Map to know what agents are in use and how they connect to one another. You will also onboard a new agent. You will also identify an agent created by a user within the your organization and reassign ownership to a different user. 
-
-This exercise should take approximately 20 minutes to perform, however, it may take up to 24 hours fo0r certtain policies to apply after setting them . <!-- update with estimated duration -->
+This exercise should take approximately 20 minutes to perform, however, it may take up to 24 hours for certtain policies to apply after setting them . <!-- update with estimated duration -->
 
 ## Task 1: Publish and apply a sensitivity label 
 
