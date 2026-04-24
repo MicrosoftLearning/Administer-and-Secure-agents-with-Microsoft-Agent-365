@@ -82,7 +82,7 @@ First, you need to ...
 
 1. Navigate to https://admin.microsoft.com and login with the provided admin credentials. Select **Agents** on the left hand side of the navigation menu. 
 1. Select **All agents** > **Requests**
-1. Select the **IT Support Assistant** Agent.
+1. Select the **IT Helpdesk Agent**.
 1. Select **Publish to store**
 1. In the Publish agent to selected users page select the following options
        - Under “Select users to groups who can install the agent” , select “All users”.
@@ -92,7 +92,7 @@ First, you need to ...
 1. On the Review permissions, select Next.
 1. On the Review and finish page, select Publish. Select Done.
 1. Navigate back to **Agents**> **All Agents** > **Registry**.
-1. Select the  **IT Support Assistant** Agent.
+1. Select the  **IT Helpdesk Agent**.
 1. **Outcome**: You have onboarded an agent.
 
 ## Task 2: Reassign Agent Ownership
