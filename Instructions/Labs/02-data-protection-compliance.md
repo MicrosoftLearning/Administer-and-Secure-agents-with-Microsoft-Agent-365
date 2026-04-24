@@ -73,7 +73,7 @@ First, you need to ...
 **Note**: the label may take a few hours to apply to this document.
 1. Copy the link to the Annual Sales Report.docx
 1. Navigate to https://m365.cloud.microsoft/chat? and login as a non admin user with the crednetials provided.
-1. Select the **IT Support Assistant** Agent > **Open**
+1. Select the **IT Helpdesk Agent** > **Open**
 1. Type in the following prompt: “Can I access this document" and paste the Sharepoint link from step 6 above. Press Enter.
 1. **Outcome**: Your agent should respond with a message saying it cannot provide that information.
 
