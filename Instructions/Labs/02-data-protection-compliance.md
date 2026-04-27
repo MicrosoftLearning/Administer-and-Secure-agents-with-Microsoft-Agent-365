@@ -7,7 +7,7 @@ lab:
     islab: true 
 ---
 
-# Lab 2 Exercise 1: Protect Agent data
+# Exercise 2: Protect Agent data
 
 Scenario: Security teams flag that an agent may surface sensitive content in Copilot Chat. The admin uses Purview, DLP Policies, and sensitivity labels to restrict what data the agent can process.  
 
@@ -76,6 +76,6 @@ First, you need to ...
 1. Copy the link to the **Annual Sales Report.docx**
 1. Navigate to https://m365.cloud.microsoft/chat? and login as a non admin user with the crednetials provided.
 1. Select the **IT Helpdesk Agent** > **Open**
-1. Type in the following prompt: “Can I access this document" and paste the Sharepoint link from step 6 above. Press Enter.
+1. Type in the following prompt: “Can I access this document" and paste the Sharepoint link of the **Annual Sales Report.docx** from step 6 above. Press Enter.
 1. **Outcome**: Your agent should respond with a message saying the user does not have access to the document.
 
