@@ -7,7 +7,7 @@ lab:
     islab: true 
 ---
 
-# Lab 3 Exercise 1: Monitor agent analytics and usage
+# Exercise 3: Monitor agent analytics and usage
 
 Scenario: Analyze usage and governance for agents within your organization. Your organization has deployed Agent 365 across multiple departments to automate operational tasks, support internal workflows, and improve efficiency. Finance, Customer Operations, and IT teams actively use agents, while adoption in other business units varies. Leadership wants clear visibility into agent usage, performance, risk exposure, and business value, while ensuring agents remain secure, compliant, and cost-effective. As an Admin, you are responsible for overseeing the full Agent 365 lifecycle—from usage analysis and governance to troubleshooting and retirement. 
 
@@ -33,7 +33,7 @@ First, you need to ...
 1. Select **Turn On** under the Audit on solution settings. If you have to turn this setting on, it will take 24 hours for this to apply. The recommendation is to wait before proceeding on to the next steps.
    - **Note**: This policy may already be turned on.
    - **Note**: If this policy is already turned on, you will still need wait 24 hours before proceeding with the next step of this task. The recommendation is to wait before proceeding on to the next steps.
-1. Under the **Date and time** range, change the Start and End date to be within 2 days of when you performed Lab 2 Task 3. For example, if you performed Lab 2 Task 3 on April 25th, you should set your start and end date in the filter to April 24 and April 26 respectively. 
+1. Under the **Date and time** range, change the Start and End date to be within 2 days of when you performed Exercise 2 Task 3. For example, if you performed Exercise 2 Task 3 on April 25th, you should set your start and end date in the filter to April 24 and April 26 respectively. 
 1. Select **Search**.
 1. **Outcome**: An audit log should appear with the dates as indicated
 
@@ -41,5 +41,5 @@ First, you need to ...
 
 1. Sign in to the Microsoft Purview portal and the MOD Administrator.
 1. Navigate to **Data Loss Prevention** > **Alerts**.
-1. **Outcome**: A log should be present with the Alert name “DLP policy match for Microsoft 365 Copilot and Copilot Chat.”  Which was generated from Lab 2 Task 3. 
+1. **Outcome**: A log should be present with the Alert name “DLP policy match for Microsoft 365 Copilot and Copilot Chat.”  Which was generated from Exercise 2 Task 3. 
 
