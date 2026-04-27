@@ -38,16 +38,16 @@ First, you need to ...
 1. Navigate to **Agents** on the left hand side navigation menu.
 1. Select **Overview** > **Agent Registry** > **Explore all agents**. You should be able to see a list of all your agents within your organization.
 1. Review the full agent inventory surfaced in the registry.
-1. Next to **Filters**, you will notice options to filter the Registry view of agents by “Status”, “Publisher”, “Channel”, “Platform”, and “Data source”. Filter agents by selecting Publisher to identify the different types of agents such as:
-    - Microsoft
-    - External pertners
-    - Crated by your org
-    - Shared by creator
+1. Next to **Filters**, you will notice options to filter the Registry view of agents by “Status”, “Publisher Type”, “Channel”, “Platform”, and “Data source”. Filter agents by selecting Publisher to identify the different types of agents such as:
+    - Your org
+    - Your users
+    - Microsoft 
+    - Third party
 1. **Outcome**: You have a centralized view of all agents deployed or discovered in the tenant using Agent Registry.
 
 ##  Optional Task 2: Analyze agent relationships using Agent Map
 
-**Note**: This is an optional task, as the ability to navigate to Agent Maps may be available only in Preview mode. You may need to join the Frontier Program by navigating to Agents> Overview. Then, select 'Try now' under 'Do more with the Frontier program' and then follow the rest of the prompts. You may get an error upon signing up. You should then close out the browser and then proceed with the steps below. If Agent Maps do not appear, proceed with the next task. 
+**Note**: This is an optional task, as the ability to navigate to Agent Maps may be available only in Preview mode. You may need to join the Frontier Program by navigating to Agents> Overview. Then, select 'Join the program' under 'Get early access to Agent 365'. On the pop up window, seelct 'All users'. Then select 'Try now. You may get an error upon signing up. You should then close out the browser and then proceed with the steps below. If Agent Maps do not appear, proceed with the next task. 
 
 1. Open up a browser window and navigate to https://admin.microsoft.com. Login with the provided admin credentials.
 1. Navigate to Agents in the navigation menu on the left side on the screen. Select **Agents** > **All agents** select **Map**.
@@ -65,8 +65,8 @@ First, you need to ...
    **Note**: If you were unable to complete the previous task, Navigate to the **Overview** > **Agent Registry** > **Explore all agents** section within the Microsoft 365 Admin center and search and Select the "Sales" Agent.
 1. You should be able to see the following information related to the "Sales" Agent. This appears in a pop up window:
     - Description
-    - Additional Resources
     - Published status
+    - Availability
     - Deployment
     - Channel
     - Last Updated
@@ -86,20 +86,22 @@ First, you need to ...
 1. Select **All agents** > **Requests**.
 1. Select the **IT Helpdesk Agent**.
 1. Select **Publish to store**.
-1. In the Publish agent to selected users page select the following options:
+1. In the **Publish agent to selected users** page select the following options:
        - Under **Select users to groups who can install the agent**, select **All users**.
        - Under the **Select users or groups who will have the agent pre-installed (optional)**, select **All users**. The select **Next**.
 1. On the Apply security template page select the following option:
-       - In the dropdown list for **Template**, select the default option **Default template for no instances**. Leave the rest of the page as is and select **Next**.
-1. On the Review permissions page, select **Next**.
-1. On the Review and finish page, select **Publish**. Select **Done**.
+       - In the dropdown list for **Template**, leave the default option as is. Leave the rest of the page as is and select **Next**.
+1. On the **Review permissions** page, select **Next**.
+1. On the **Review and finish** page, select **Publish**. Select **Done**.
 1. Navigate back to **Agents**> **All Agents** > **Registry**.
 1. Select the  **IT Helpdesk Agent**.
 1. **Outcome**: You have onboarded an agent.
 
 ## Task 2: Reassign Agent Ownership
 
-1. Navigate to https://m365.cloud.microsoft/chat? and login as as a non admin user with the credentials provided.
+1.Navigate to the Microsoft 365 Admin portal as the MOD Admin. Select **Users** from the left hand side navigation menu. Select the user **Adil Eli**.
+1. In Adil Eli's account page, copy Adil's username which is located in the **Username and email** field.
+1. Navigate to https://m365.cloud.microsoft/chat? and login as Adil Eli with the username you copied in the step above. The password has been provided to you under the "Resource" tab.
 1. On the left hand navigation side, select **New agent**.
 1. Fill out the following fields under the New Agent page:
        - **Template**: None
