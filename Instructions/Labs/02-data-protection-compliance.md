@@ -74,7 +74,7 @@ First, you need to ...
 1. Select **Wingtip Acquisition** > **OK**.
 **Note**: the label may take a few hours to apply to this document.
 1. Copy the link to the **Annual Sales Report.docx**.
-1. Navigate to https://m365.cloud.microsoft/chat? and login as Adil Eli once more with the password provided.
+1. Navigate to https://m365.cloud.microsoft/chat? and login as Amber Rodriguez with the password provided.
 1. Select the **IT Helpdesk Agent** > **Open**
 1. Type in the following prompt: “Can I access this document" and paste the Sharepoint link of the **Annual Sales Report.docx** from step 6 above. Press Enter.
 1. **Outcome**: Your agent should respond with a message saying the user does not have access to the document.
