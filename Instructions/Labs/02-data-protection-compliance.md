@@ -63,7 +63,7 @@ First, you need to ...
 1. On the **Policy mode** page select the option **Turn the Policy on immediately**. 
 1. Select **Next**. Then select **Submit** > **Done**.
 1. **Outcome**: You have configured a DLP Policy to apply to your agent.
-**Note** this DLP Policy may take anywhere from 2-24 hours to apply. The recomendation is to wait for some time before proceeding on to the next task after 24 hours has passed. 
+**Note** this DLP Policy may take anywhere from 2-24 hours to apply. The recomendation is to wait for 24 hours before proceeding on to the next task. 
 
 ## Task 3: Test your DLP Policy via your agent
 
