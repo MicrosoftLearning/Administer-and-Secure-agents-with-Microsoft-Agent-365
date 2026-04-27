@@ -8,7 +8,7 @@ lab:
 ---
 
 
-# Lab 1 Exercise 1: Discover and Govern Agents
+# Exercise 1: Discover and Govern Agents
 
 Scenario: As an Agent 365 administrator, you are responsible for maintaining visibility and governance across all agents in the environment. You need to identify which agents exist in the tenant, understand how they are used, and ensure they meet organizational governance requirements. 
 
@@ -78,7 +78,7 @@ First, you need to ...
 1. Select the **x** on the pop-up window to close out the winow.
 1. **Outcome**: You can check an Agent’s metadata.
 
-# Lab 1 Exercise 2: Manage Agents with Agent 365
+# Exercise 1a: Manage Agents with Agent 365
 
 ## Task 1: Onboard an Agent
 
