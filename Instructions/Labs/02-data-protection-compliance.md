@@ -35,7 +35,7 @@ First, you need to ...
        - **Description**: Test for internal doc for A365 labs
 1. On the Review and finish page, select **Submit**.
 1. **Outcome**: You have created a sensitivity label. 
-**Note**: The sensitivity may take up 24 hours to apply. The recomendation is to move on to the next task after 24 hours has passed. 
+**Note**: The sensitivity label may take up 24 hours to apply. The recomendation is to move on to the next task after 24 hours has passed. 
 
 ## Task 2: Apply a DLP Policy
 
