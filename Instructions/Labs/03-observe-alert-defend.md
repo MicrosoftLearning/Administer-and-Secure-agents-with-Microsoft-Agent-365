@@ -29,10 +29,7 @@ First, you need to ...
 
 1. Sign in to the Microsoft Purview portal and the MOD Administrator.
 1. Browse to **Solutions** > **Audit** .
-1. Select **Create Policy**.
-1. Select **Turn On** under the Audit on solution settings. If you have to turn this setting on, it will take 24 hours for this to apply. The recommendation is to wait before proceeding on to the next steps.
-   - **Note**: This policy may already be turned on.
-   - **Note**: If this policy is already turned on, you will still need wait 24 hours before proceeding with the next step of this task. The recommendation is to wait before proceeding on to the next steps.
+1. You should see a message at the top of the screen which reads "Sorry we're having trouble figuring out if activity is being recorded. Try refreshing the page.* This means that auditing is turned on, but will take up to 24 hours for logs to generate. The recommendation is to wait before proceeding on to the next steps.
 1. Under the **Date and time** range, change the Start and End date to be within 2 days of when you performed Exercise 2 Task 3. For example, if you performed Exercise 2 Task 3 on April 25th, you should set your start and end date in the filter to April 24 and April 26 respectively. 
 1. Select **Search**.
 1. **Outcome**: An audit log should appear with the dates as indicated
