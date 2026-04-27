@@ -38,6 +38,6 @@ First, you need to ...
 
 1. Sign in to the Microsoft Purview portal and the MOD Administrator.
 1. Navigate to **Data Loss Prevention** > **Alerts**.
-1. Select **Time Range: Any** and set the start date and time to when you performed Exercise 2 Task 3.
+1. Select **Time range: Any** by **Filters** and set the start date and time to when you performed Exercise 2 Task 3.
 1. **Outcome**: A log should be present with the Alert name “DLP policy match for Microsoft 365 Copilot and Copilot Chat.”  Which was generated from Exercise 2 Task 3.
 
