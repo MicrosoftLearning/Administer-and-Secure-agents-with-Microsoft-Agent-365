@@ -33,7 +33,7 @@ First, you need to ...
 1. Select **Turn On** under the Audit on solution settings. If you have to turn this setting on, it will take 24 hours for this to apply. The recommendation is to wait before proceeding on to the next steps.
    - **Note**: This policy may already be turned on.
    - **Note**: If this policy is already turned on, you will still need wait 24 hours before proceeding with the next step of this task. The recommendation is to wait before proceeding on to the next steps.
-1. Under the **Date and time** range, change the Start and End date to be within 2 days of when you performed Lab 3. For example, if you performed Lab 3 on April 25th, you should set your start and end date in the filter to April 24 and April 26 respectively. 
+1. Under the **Date and time** range, change the Start and End date to be within 2 days of when you performed Lab 2 Task 3. For example, if you performed Lab 2 Task 3 on April 25th, you should set your start and end date in the filter to April 24 and April 26 respectively. 
 1. Select **Search**.
 1. **Outcome**: An audit log should appear with the dates as indicated
 
@@ -41,5 +41,5 @@ First, you need to ...
 
 1. Sign in to the Microsoft Purview portal and the MOD Administrator.
 1. Navigate to **Data Loss Prevention** > **Alerts**.
-1. **Outcome**: A log should be present with the Alert name “DLP policy match for Microsoft 365 Copilot and Copilot Chat.”  Which was generated from Lab 2 Exercise 1 Task 3. 
+1. **Outcome**: A log should be present with the Alert name “DLP policy match for Microsoft 365 Copilot and Copilot Chat.”  Which was generated from Lab 2 Task 3. 
 
