@@ -22,10 +22,10 @@ First, you need to ...
 1. Navigate to the Microsoft Purview portal and login with the provided MOD admin credentials.
 1. Navigate to **Solutions** > **Information Protection** > **Sensitivity labels**.
 1. Select the checkbox **Wingtip Acquisition** > select the three elipses > select **Publish label**.
-1. On Create Policy wizard pop click **Next** through these pages: **Labels to publish**, **Admin units**, and **Users and groups**. Leave the settings on these pages as default.
+1. On **Create Policy** wizard pop click **Next** through these pages: **Labels to publish**, **Admin units**, and **Users and groups**. Leave the settings on these pages as default.
 1. On the **Policy settings** page, select the check box next to **Require users to apply a label to their emails and documents**.
 1. Under the  **Default settings for documents** page, set the **Default label** to **None**. Select **Next**.
-1. Under the **Default settings for emails** page, leave the settings as is. Press **Next**.
+1. Under the **Default settings for emails** page, leave the settings as is. Select **Next**.
 1. Under the **Default settings for meeting and calendar events** page, leave the settings as is and select **Next**.
 1. Under the **Default settings for sites and groups** page, leave the settings as is and select **Next**.
 1. Under the **Default settings for Engage content (preview)** page, leave the settings as is and select **Next**.
@@ -41,7 +41,7 @@ First, you need to ...
 
 1. Sign in to the Microsoft Purview portal and the MOD Administrator.
 1. Navigate to **Solutions** > **Data Loss Prevention** in the left hand side navigation menu.
-1. Select **Policies** > ** + Create Policy**.
+1. Select **Policies** > **+ Create Policy**.
 1. Select **Enterprise applications & devices**.
 1. In the **Start with a template or create a custom policy** page, select **Custom** under **Categories**.
 1. Select **Custom policy** under **Regulations**.
@@ -54,14 +54,14 @@ First, you need to ...
 1. In the Define policy settings, select **Create or customize advanced DLP rules**. Select **Next**.
 1. Select **+Create rule** and type in the following:
        - **Name**: test sensitivity label
-1. Under **Conditions** perform the following:
+1. Under **Conditions**, select **+Add condition** > **Content contains**, and then perform the following:
        - Leave **Group Name** and **Group Operator** in it's default settings.
        -  Select **Add** > **Sensitivity labels** > Select checkbox next to **Wingtip Acquisition**.
-1. Select **+ Add an action** > **Restrict Copilot from processing content** > Select the checkbox near **Accessing knowledge sources**.
-1. Select **Save**
+1. Under **Actions**, select **+ Add an action** > **Restrict Copilot from processing content** > Select the checkbox near **Accessing knowledge sources**.
+1. Select **Save**.
 1. Select **Next** on the **Customize advanced DLP rules** page.
 1. On the **Policy mode** page select the option **Turn the Policy on immediately**. 
-1. Select **Next**. Then select **Submit**.
+1. Select **Next**. Then select **Submit** > **Done**.
 1. **Outcome**: You have configured a DLP Policy to apply to your agent.
 **Note** this DLP Policy may take anywhere from 2-24 hours to apply. The recomendation is to wait for some time before proceeding on to the next task after 24 hours has passed. 
 
@@ -71,10 +71,10 @@ First, you need to ...
 1. In the search box, type **Sales and Marketing** and select it.
 1. In the **Sales and Marketing** page, select **Documents** > **Sales** folder > open the **Annual Sales Report.docx**.
 1. Press **Select label**.
-1. Select **Wingtip Acquisition** > **OK**
+1. Select **Wingtip Acquisition** > **OK**.
 **Note**: the label may take a few hours to apply to this document.
-1. Copy the link to the **Annual Sales Report.docx**
-1. Navigate to https://m365.cloud.microsoft/chat? and login as a non admin user with the crednetials provided.
+1. Copy the link to the **Annual Sales Report.docx**.
+1. Navigate to https://m365.cloud.microsoft/chat? and login as Adil Eli once more with the password provided.
 1. Select the **IT Helpdesk Agent** > **Open**
 1. Type in the following prompt: “Can I access this document" and paste the Sharepoint link of the **Annual Sales Report.docx** from step 6 above. Press Enter.
 1. **Outcome**: Your agent should respond with a message saying the user does not have access to the document.
