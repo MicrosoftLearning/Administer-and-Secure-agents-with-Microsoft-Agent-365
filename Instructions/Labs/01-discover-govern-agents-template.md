@@ -25,9 +25,10 @@ This exercise should take approximately **20** minutes to complete. <!-- update 
 Before you can start this exercise, you will need to...
 
 1.  Navigate to https://admin.microsoft.com and login with the provided admin credentials.
-2.  Click on the squre tile menu option at the top left corner.
-3.  Select Sharepoint. The tenant's Sharepoint site should open in another tab/window.
-4.  Take note of the Sharepoint site as you will need it during the lab. For example,  https://wwlcpxxxxx.sharepoint.com/.
+1.   On the pop up window **You need to set up multifactor authentication**, select **Skip for now**
+1.  Click on the squre tile menu option at the top left corner.
+1.  Select Sharepoint. The tenant's Sharepoint site should open in another tab/window.
+1.  Take note of the Sharepoint site as you will need it during the lab. For example,  https://wwlcpxxxxx.sharepoint.com/.
 
 
 ## Task 1: Discover agents across the tenant using Agent Registry
