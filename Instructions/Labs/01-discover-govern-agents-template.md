@@ -14,9 +14,9 @@ Scenario: As an Agent 365 administrator, you are responsible for maintaining vis
 
 In this exercise, you will you will use Agent Registry and, optionally, Agent Map to discover agents deployed in the tenant. You will review agent usage, and understand how agents connect to each other and to enterprise resources. During this review, you will identify an existing agent that needs new ownership reassignment. This scenario reinforces that agents are long lived digital actors that require lifecycle governance like service accounts.
 
-By completing this lab, you will validate your ability to discover, assess, and govern agents across a Microsoft 365 tenant. 
+By completing this exercise, you will validate your ability to discover, assess, and govern agents across a Microsoft 365 tenant. 
 
-Lab Description: Discover Microsoft-built, partner-built, and custom agents in a tenant. Additionally, use Agent Registry and Agent Map to know what agents are in use and how they connect to one another. You will onboard a new agent. You will also identify an agent created by a user within the your organization and reassign ownership to a different user. 
+Lab Exercise: Discover Microsoft-built, partner-built, and custom agents in a tenant. Additionally, use Agent Registry and Agent Map to know what agents are in use and how they connect to one another. You will onboard a new agent. You will also identify an agent created by a user within the your organization and reassign ownership to a different user. 
 
 This exercise should take approximately **20** minutes to complete. <!-- update with estimated duration -->
 
