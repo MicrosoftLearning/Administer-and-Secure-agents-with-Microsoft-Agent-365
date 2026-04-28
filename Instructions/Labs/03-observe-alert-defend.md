@@ -3,7 +3,7 @@ lab:
     title: 'Observe, Alert, and Defend'
     description: 'Analyze usage and governance for agents within your organization. '
     duration: '20 minutes'
-    level: 200-300
+    level: 100-200
     islab: true 
 ---
 
