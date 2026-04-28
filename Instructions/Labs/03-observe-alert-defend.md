@@ -38,6 +38,12 @@ First, you need to ...
 
 1. Sign in to the Microsoft Purview portal and the MOD Administrator.
 1. Navigate to **Data Loss Prevention** > **Alerts**.
-1. Select **Time range: Any** by **Filters** and set the start date and time to when you performed Exercise 2 Task 3.
+
+**Note:** In case no records appear under **Alerts**, perform the following actions:
+    - Select **Recommendations** > Under **Not Started** > select **Protect items with sensitivity labels from Microsoft 365 Copilot and agent processing** > select **Get started** > select **+Add** > select **Wingtip Aquisition** > select **Create policy**.
+    - Navigate back to **Policies**. You should see the following policy listed **DSPM for AI - Protect sensitive data from Copilot processing** under **Policies**.
+    - Navigate back to **Alerts** to view the records. You may need to refresh the page a couple of times and wait for the record to appear.
+
+
 1. **Outcome**: A log should be present with the Alert name “DLP policy match for Microsoft 365 Copilot and Copilot Chat.”  Which was generated from Exercise 2 Task 3.
 
