@@ -3,7 +3,7 @@ lab:
     title: 'Discover and Govern Agents'
     description: 'Explore the Agent 365 overviewpage within the Microsoft365 Admin center. '
     duration: '20 minutes'
-    level: 200-300
+    level: 100-200
     islab: true 
 ---
 
