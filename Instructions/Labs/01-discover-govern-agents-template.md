@@ -39,7 +39,7 @@ First, you need to ...
 1. Navigate to **Agents** on the left hand side navigation menu.
 1. Select **Overview** > **Agent Registry** > **Explore all agents**. You should be able to see a list of all your agents within your organization.
 1. Review the full agent inventory surfaced in the registry.
-1. Next to **Filters**, you will notice options to filter the Registry view of agents by “Status”, “Publisher Type”, “Channel”, “Platform”, and “Data source”. Filter agents by selecting Publisher to identify the different types of agents such as:
+1. Next to **Filters**, you will notice options to filter the Registry view of agents by “Status”, “Publisher Type”, “Channel”, “Platform”, and “Data source”. Filter agents by selecting **Publisher type** to identify the different types of agents such as:
     - Your org
     - Your users
     - Microsoft 
@@ -79,9 +79,7 @@ First, you need to ...
 1. Select the **x** on the pop-up window to close out the winow.
 1. **Outcome**: You can check an Agent’s metadata.
 
-# Exercise 1a: Manage Agents with Agent 365
-
-## Task 1: Onboard an Agent
+## Task 4: Onboard an Agent
 
 1. Navigate to https://admin.microsoft.com and login with the provided admin credentials. Select **Agents** on the left hand side of the navigation menu. 
 1. Select **All agents** > **Requests**.
@@ -98,7 +96,7 @@ First, you need to ...
 1. Select the  **IT Helpdesk Agent**.
 1. **Outcome**: You have onboarded an agent.
 
-## Task 2: Reassign Agent Ownership
+## Task 5: Reassign Agent Ownership
 
 1.Navigate to the Microsoft 365 Admin portal as the MOD Admin. Select **Users** from the left hand side navigation menu. Select the user **Adil Eli**.
 1. In Adil Eli's account page, copy Adil's username which is located in the **Username and email** field.
