@@ -35,7 +35,7 @@ First, you need to ...
        - **Description**: Test for internal doc for A365 labs
 1. On the Review and finish page, select **Submit**.
 1. **Outcome**: You have created a sensitivity label. 
-**Note**: The sensitivity label may take up 24 hours to apply. The recomendation is to move on to the next task after 24 hours has passed. 
+**Note**: The sensitivity label may take up 2 hours or less to apply. The recomendation is to move on to the next task. 
 
 ## Task 2: Apply a DLP Policy
 
@@ -79,7 +79,7 @@ First, you need to ...
 1. Press **Select label**.
 1. Select **Wingtip Acquisition** > **OK**.
    
-**Note**: the label may take a few hours to apply to this document.
+**Note**: the label may take 30 minutes or less to apply to this document.
 
 1. Copy the link to the **Annual Sales Report.docx**.
 1. Navigate to https://m365.cloud.microsoft/chat? and login as **Amber Rodriguez** with the password provided.
