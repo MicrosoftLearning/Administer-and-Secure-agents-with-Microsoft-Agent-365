@@ -62,8 +62,14 @@ First, you need to ...
 1. Select **Next** on the **Customize advanced DLP rules** page.
 1. On the **Policy mode** page select the option **Turn the Policy on immediately**. 
 1. Select **Next**. Then select **Submit** > **Done**.
+1. Navigate back to **Solutions** > **Data Loss Prevention** >  **Recommendations**.
+1. Under **Not Started** select **Protect items with sensitivity labels from Microsoft 365 Copilot and agent processing** > select **Get started** > select **+Add** > select **Wingtip Aquisition** > select **Create policy**.
+1. Navigate back to  **Solutions** > **Data Loss Prevention** > **Policies**.
+1. Under the list of **Policies** Select theck box nextto  **DSPM for AI - Protect sensitive data from Copilot processing**.
+1. On the pop up wizard, continue to press **Next** through all the pages,leaving thesettings as is, until you get to **Policy mode** page.
+1. On the **Policy mode** page, select the option **Turn the policy on immediately**. Select **Next**. Select **Submit**.
 1. **Outcome**: You have configured a DLP Policy to apply to your agent.
-**Note** this DLP Policy may take anywhere from 2-24 hours to apply. The recomendation is to wait for 24 hours before proceeding on to the next task. 
+**Note** These DLP Policy may take up to 2 hours for them to sync and apply. Navigate to **Solutions** > **Data Loss Prevention** > **Policies**. You should see the **Policy sync status(preview)** say **Sync completed** once approxiamtley 2 hours has passed. This means that the DLP policy is successfuly applied to your tenant. 
 
 ## Task 3: Test your DLP Policy via your agent
 
